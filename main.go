@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	wundergroundAPIkey := flag.String("wunderground.api.key", "f5ae99203dc73872", "wunderground.com API Key")
+	wundergroundAPIkey := flag.String("wunderground.api.key", "PUT_API_KEY_HERE", "wunderground.com API Key")
 	flag.Parse()
 
 	mw := multiWeatherProvider{
